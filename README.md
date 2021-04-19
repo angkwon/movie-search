@@ -28,5 +28,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Notes
 
-* UI/UX challenge: I had a hard time figuring out how I wanted to create the UI and went through multiple iterations
-* Future improvements: Unit tests, UI improvements, SASS vars, pagination component, search input component, etc.
+* UI/UX challenge: UI design of application
+* Future improvements: Accessibility, Unit tests, UI improvements, SASS vars, pagination component, search input component, etc.
