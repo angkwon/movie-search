@@ -1,0 +1,39 @@
+.movie-card {
+    
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    padding: 16px;
+
+    .movie-card-poster {
+        display: flex;
+        justify-content: center;
+    }
+
+    .movie-card-details {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        text-align: left;
+
+        .subtext {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .movie-card-details-info {
+            flex: 1;
+
+            h3 {
+                font-weight: 600;
+                margin: 0;
+            }
+        }
+
+        .movie-card-details-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

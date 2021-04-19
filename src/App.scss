@@ -1,0 +1,47 @@
+.app-movie-search {
+    padding: 24px 8px;
+    text-align: center;
+
+    @media only screen and (min-width: 600px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    label {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background: url("./icons/search.svg") center / contain no-repeat;
+          }
+
+        .search-field {
+            border: solid 1px black;
+            font-size: 16px;
+            padding: 16px 32px 16px 16px;
+            width: 75%;
+    
+            @media only screen and (min-width: 600px) {
+                width: 40%;
+            }
+        }
+    }
+
+    .pagination {
+        margin-top: 24px;
+        span {
+            display: inline-block;
+            padding: 0 16px;
+        }
+    }
+    
+}
